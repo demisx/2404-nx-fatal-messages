@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dl/shared/util-test": ["libs/shared/util-test/src/index.ts"]
+      "@dl/shared/util-test": ["libs/shared/util-test/src/index.ts"],
+      "@dl/shared/util-api-feedback": [
+        "libs/shared/util-api-feedback/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

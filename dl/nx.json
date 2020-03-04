@@ -23,6 +23,9 @@
     },
     "shared-util-test": {
       "tags": ["scope:shared", "type:util"]
+    },
+    "shared-util-api-feedback": {
+      "tags": ["scope:shared", "type:util"]
     }
   }
 }
