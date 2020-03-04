@@ -11,9 +11,6 @@
     "nx.json": "*"
   },
   "projects": {
-    "shared-util-api-region": {
-      "tags": ["scope:shared", "type:util"]
-    },
     "web": {
       "tags": ["scope:web", "type:app"]
     },
@@ -21,13 +18,10 @@
       "tags": [],
       "implicitDependencies": ["web"]
     },
-    "api": {
-      "tags": ["scope:api", "type:app"]
-    },
     "api-e2e": {
       "tags": ["scope:api-e2e", "type:app"]
     },
-    "shared-util-api-email": {
+    "shared-util-test": {
       "tags": ["scope:shared", "type:util"]
     }
   }

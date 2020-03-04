@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'shared-util-api-region',
+  name: 'shared-util-test',
   preset: '../../../jest.config.js',
   transform: {
     '^.+\\.[tj]sx?$': 'ts-jest'
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
-  coverageDirectory: '../../../coverage/libs/shared/util-api-region'
+  coverageDirectory: '../../../coverage/libs/shared/util-test'
 };

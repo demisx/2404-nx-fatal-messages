@@ -16,10 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dl/shared/util-api-region": [
-        "libs/shared/util-api-region/src/index.ts"
-      ],
-      "@dl/shared/util-api-email": ["libs/shared/util-api-email/src/index.ts"]
+      "@dl/shared/util-test": ["libs/shared/util-test/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
